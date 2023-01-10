@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-image: url(../images/bg-pantera-negra.png);
+  background-size: cover;
+  background-position: right;
+}
+
+.mainContent {
+  height: auto;
+  margin: 100px 0;
+}
+.mainContent .genres {
+  display: flex;
+  gap: 14px;
+  padding: 0;
+}
+.mainContent .genres li {
+  border-radius: 15px;
+  padding: 1px;
+  background-image: linear-gradient(50deg, #BD00FF, #ED1F8E);
+}
+.mainContent .genres li span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  background-color: #0b0b0b;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
