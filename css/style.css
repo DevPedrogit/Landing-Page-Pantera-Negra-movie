@@ -6,16 +6,22 @@
   font-family: "Inter", sans-serif;
 }
 
-.container00 {
+body {
   min-height: 100vh;
-  background-image: url(../images/bg-pantera-negra.png);
+  background-image: url(https://ovicio.com.br/wp-content/uploads/blackpanther-wakanda.jpg);
   background-size: cover;
   background-position: right;
 }
 
+.container00 {
+  min-height: 100vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 27%, rgba(0, 0, 0, 0) 50%);
+}
+
 .mainContent {
   height: auto;
-  padding: 60px 0;
+  padding-top: 40px;
 }
 .mainContent .genres {
   display: flex;
@@ -112,6 +118,61 @@
 .mainContent .states .state .stateSubtitle {
   font-size: 12px;
   color: #d3d1d1;
+}
+
+@media (max-width: 991px) {
+  body {
+    background-image: url(https://i0.wp.com/www.portaldonerd.com.br/wp-content/uploads/2017/10/black-panther-wallpaper-19.jpg);
+    background-position: center;
+  }
+  .container00 {
+    background: linear-gradient(90deg, rgb(0, 0, 0) 35%, rgba(0, 0, 0, 0) 60%);
+  }
+  .containerNavBar .navBtn {
+    border: none;
+    color: transparent;
+  }
+  .containerNavBar .navBtn .iconNavBar {
+    color: #fff;
+  }
+}
+@media (max-width: 767px) {
+  .container00 {
+    background: linear-gradient(90deg, rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0) 82%);
+  }
+}
+@media (max-width: 572px) {
+  .container00 {
+    background: linear-gradient(90deg, rgb(0, 0, 0) 5%, rgba(0, 0, 0, 0) 100%);
+  }
+  .mainContent .genres li span {
+    width: 90px;
+    height: 30px;
+  }
+  .mainContent .title {
+    font-size: 48px;
+  }
+}
+@media (max-width: 470px) {
+  .mainContent .subTitle {
+    font-size: 11px;
+  }
+  .mainContent .information {
+    font-size: 11px;
+  }
+  .mainContent .paragraph {
+    font-size: 15px;
+  }
+}
+@media (max-width: 391px) {
+  .mainContent .genres li span {
+    width: 60px;
+    height: 20px;
+    font-size: 8px;
+  }
+  .mainContent .title {
+    font-size: 34px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
